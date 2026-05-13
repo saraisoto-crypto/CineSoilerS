@@ -1,0 +1,58 @@
+import { Product } from '@/types'
+
+export const products: Product[] = [
+  {
+    id: '1',
+    title: 'Inception',
+    price: 14.99,
+    image: 'https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg',
+    category: 'Sci-Fi',
+    description: 'Un ladrón que roba secretos corporativos a través del sueño.',
+    rating: 4.8,
+  },
+  {
+    id: '2',
+    title: 'The Dark Knight',
+    price: 12.99,
+    image: 'https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg',
+    category: 'Acción',
+    description: 'Batman enfrenta al Joker en una batalla por Gotham City.',
+    rating: 4.9,
+  },
+  {
+    id: '3',
+    title: 'Interstellar',
+    price: 13.99,
+    image: 'https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg',
+    category: 'Sci-Fi',
+    description: 'Un equipo de astronautas viaja más allá de la galaxia.',
+    rating: 4.7,
+  },
+  {
+    id: '4',
+    title: 'Pulp Fiction',
+    price: 11.99,
+    image: 'https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg',
+    category: 'Drama',
+    description: 'Historias entrelazadas de crimen en Los Ángeles.',
+    rating: 4.8,
+  },
+  {
+    id: '5',
+    title: 'The Matrix',
+    price: 12.99,
+    image: 'https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg',
+    category: 'Sci-Fi',
+    description: 'Un hacker descubre la verdad sobre su realidad.',
+    rating: 4.7,
+  },
+  {
+    id: '6',
+    title: 'Parasite',
+    price: 10.99,
+    image: 'https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg',
+    category: 'Drama',
+    description: 'Una familia pobre se infiltra en una familia rica.',
+    rating: 4.6,
+  },
+]
