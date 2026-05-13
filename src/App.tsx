@@ -1,11 +1,13 @@
 import { products } from '@/data/products'
 import { ProductCard } from '@/components/ProductCard'
+import { Cart } from '@/components/Cart'
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-950">
-      <header className="bg-gray-900 border-b border-gray-800 px-6 py-4">
+      <header className="bg-gray-900 border-b border-gray-800 px-6 py-4 flex items-center justify-between">
         <h1 className="text-2xl font-bold text-yellow-400">CineSoilerS 🎬</h1>
+        <Cart />
       </header>
       <main className="max-w-7xl mx-auto px-6 py-8">
         <h2 className="text-white text-3xl font-bold mb-8">Catálogo de Películas</h2>
