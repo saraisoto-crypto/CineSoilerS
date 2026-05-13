@@ -1,5 +1,12 @@
+
 function App() {
-  return <h1>CineSoilerS 🎬</h1>;
+  return (
+    <div className="min-h-screen bg-gray-950 flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-yellow-400">
+        CineSoilerS 🎬
+      </h1>
+    </div>
+  )
 }
 
-export default App;
+export default App
